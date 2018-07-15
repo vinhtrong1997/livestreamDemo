@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Live Stream video demo</title>
+</head>
+<body>
+    <h1>Live stream video demo</h1>
+    <video id="localStream" width="500" controls></video>
+    <br/><br/>
+    <video id="friendStream" width="500" controls></video>
+    <br/><br/>
+    <label>Your signal</label>
+    <br/><br/>
+    <textarea rows="10" cols="150" id="txtMySignal"></textarea>
+    <br/><br/>
+    <input type="text" id="txtFriendSignal" placeholder="Enter your friend signal"/>
+    <br/><br/>
+    <input type="button" value="connect" id="btnConnect" />
+</body>
+<script src="bundle.js"></script>
+</html>

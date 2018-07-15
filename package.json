@@ -1,0 +1,24 @@
+{
+  "name": "livestream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "QuangTrong",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "simple-peer": "^9.1.2",
+    "socket.io": "^2.1.1"
+  },
+  "script":{
+    "start": "server.js"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1"
+  }
+  
+}
